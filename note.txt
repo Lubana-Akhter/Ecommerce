@@ -1,0 +1,34 @@
+
+Live link : https://shopsmart.onrender.com/
+
+
+Here i have 2 admin-
+
+for admin login :
+
+email: admin@gmail.com
+password: admin123
+
+
+email:sarin@gmail.com
+password: sarin123
+
+
+----------------------
+
+payment:
+ card number: 4242 4242 4242 4242
+
+
+
+step1. Register a user using Name, Email, Password.
+step2:Login user/ admin using email anad password
+stap3: change the role of user, admin is 1 and normal user is 0 in database.
+step4: Admin can create, update , delete a category, also create, update, read, delete product, go to dashboard and here all function for admin.
+step5: User only see the all product, view specific product, add to product in cart and order a product. Before order user have must give delivery address.
+step6: Admin can create a category
+step7: Admin create a product using  proto,Name, Description, price, category, shipping and quantity
+step8: Here is a shop and search page for search product
+step9:Implement payment processing using a third-party payment gateway . website  allow users to enter their credit card information and securely process payments for their orders. only authenticated users should be able to place orders.
+
+N.B: page Refresh and open new tab does not working render.com, if 404 occur please refresh again with https://shopsmart.onrender.com/. nearby i will fix it insaAllah

@@ -1,0 +1,261 @@
+
+.navbar {
+    background-color: #0076c0;
+    height: 4.5rem;
+    max-width: 100%;
+    z-index: 1000;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    color: #FFFFFF !important;
+    margin-right: 1rem;
+}
+
+.active {
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px !important;
+    /* color: #FF7F50 !important; */
+}
+
+.nav-link:hover {
+    color: #f1ebf1 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.card-button {
+    border-radius: 0px;
+}
+
+.hoverable:hover {
+    border-right: 2px solid #0d6efd;
+    border-bottom: 1px solid #0d6efd;
+    border-radius: 12px;
+}
+
+.ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+}
+
+.form-control {
+    -webkit-box-shadow: none !important;
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+
+
+.ecom-logo {
+    width: 25%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-left: 8rem;
+}
+
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.horizontal-list li {
+    margin-right: 10px;
+}
+
+.section-between {
+    margin-top: 5rem;
+}
+
+.form-control {
+    height: 2.3rem !important;
+    font-size: 15px !important;
+    line-height: 30px;
+    font-family: 'Helvetica', Arial, Lucida, sans-serif;
+    font-weight: 500;
+    text-align: left;
+    background-color: #f7fafc !important;
+    color: #555555;
+    border-radius: none !important;
+
+}
+
+.form-control:focus {
+    box-shadow: 0 0 4px 0 rgba(255, 127, 80, 0.9) !important;
+}
+
+
+.item-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    transform: scale(1.001);
+    transition: transform 1.2s ease 0s;
+}
+.item-img2 {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    top: 0px;
+    left: 0px;
+    /* object-fit: cover; */
+    transform: scale(1.001);
+    transition: transform 1.2s ease 0s;
+}
+
+.serviceCard {
+    width: 100%;
+    padding: 60px 30px 30px 30px;
+    box-shadow: 0px 0px 2px 1px rgba(128, 131, 134, 0.2);
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    height: 100%;
+    margin-bottom: 5rem;
+
+
+}
+
+.serviceCard:hover {
+    box-shadow: 0 4px 8px 2px rgba(0, 15, 230, .2);
+}
+
+
+
+
+
+.serviceMainTitle {
+    /* color: #0076c0; */
+    /* margin-top: 1rem; */
+    /* color: #273044; */
+    color: var(--title-color);
+    /* margin-bottom: 2rem; */
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'Helvetica', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* start footer */
+.before-footer-part {
+    background-color: #FF7F50;
+}
+
+.logoImageFooter {
+    display: block;
+    max-width: 60%;
+    height: 120px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.hrFooter {
+    border-top: 2px dotted #FF7F50;
+    width: 70%;
+    float: left;
+}
+
+.footerSection {
+    min-height: 300px;
+    box-shadow: 0 0 4px 0 rgba(138, 145, 243, 0.2);
+    background-color:rgb(0, 47, 74);
+    padding: 3rem;
+}
+
+.FooterTitle {
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.footerUl {
+    font-family: 'Helvetica', Times Roman, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 26px;
+    word-spacing: 4px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+.liOfficeAddress {
+    color: #DBDCDF;
+    list-style-type: square;
+    float: left;
+}
+
+.aColor {
+    color: #DBDCDF;
+    text-decoration: none;
+}
+
+.aColor:hover {
+    color: #FFA500 !important;
+}
+
+
+.footerSocialLink {
+
+    inline-size: 50px;
+    color: #DBDCDF;
+    margin-top: 1rem;
+    font-size: 13px;
+
+}
+
+.footerfontAwsome {
+    width: 30px !important;
+    height: 30px !important;
+    color: floralwhite !important;
+
+}
+
+.footerfontAwsome:hover {
+    color: #FFA500 !important;
+}
+
+.footerLinkDiv {
+    display: flex;
+    align-self: center;
+}
+
+.copyrightSec {
+    padding: 20px 20px 20px 20px;
+    background-color: #1d2e69;
+    text-decoration: none;
+    color: #DBDCDF;
+    font-family: ' Helvetica', Times Roman, Arial, Lucida, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.iconBullet {
+    font-size: 16px;
+    color: #FFA500;
+
+}
+
+.service-hr {
+    border-top: 5px dashed #FFA500;
+}
+
+/* end footer */
